@@ -1,0 +1,25 @@
+{
+  "rules": {
+    "buy_and_pay": [
+      {
+        "code": "VOUCHER",
+        "quantity" : "3",
+        "free" : "2"
+      }
+    ],
+    "bulk_purchases": [
+      {
+        "code": "TSHIRT",
+        "quantity" : "3",
+        "discount" : "10",
+        "discount_value" : "perc"
+      },
+      {
+        "code": "MUG",
+        "quantity" : "2",
+        "discount" : "1",
+        "discount_value" : "abs"
+      }
+    ]
+  }
+}
